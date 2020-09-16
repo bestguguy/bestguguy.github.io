@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head> 
-    <link href="themlooks.css" rel="stylesheet">
-    <script data-ad-client="ca-pub-9974603382450231" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-<body class="background">
-   <div class="title">
-    <h1>hot big bootie bitches in your area</h1> 
-    </div>
-    <table>
-    <tr>
-    <td><img src="https://m.media-amazon.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_UX214_CR0,0,214,317_AL_.jpg"></td> 
-       <td><a href="viruz.html">click to see</a>
+    <head>
+        <link href="style.css" rel="stylesheet" >
+        
+    <script>
+        function computeDividend(){
+            var amount = document.getElementById('amount').value;
             
-        </td>
-     </tr>
-    </table>
-    <div class="nelson"><p>approved by<br>Nelson Mandela<br>44th president usa</p></div>
-</body>
+             var yield = document.getElementById('yield').value;
+             
+            var years = document.getElementById('years').value;
+            
+            
+           var Dividend_payout = (yield / 100) + 1;
+            
+            var Dividends = amount * Math.pow(Dividend_payout, years) .toFixed(2);
+            
+            
+            Dividends = Dividends.toString() ;
+           
+            
+            document.getElementById('Dividends').innerHTML = "Dividends = $"+Dividends;
+        }
+        
+    </script>
+    </head>
+    <body>
+        
+    <p>Investment: $<input id="amount" type="number" min="1" onchange="computeDividend ()"></p>
+        
+     <p>Dividend Yield: <input id="yield" type="number" min="0" max="100" value="10" steps=".1" onchange="computeDividend ()">%</p>   
+    
+        
+    <p>Years: <input id="years" type="number" min="1" value="10" onchange="computeDividend ()"></p>
+        
+    <h2 class="questions" id="Dividends"></h2>    
+        
+    </body>
 </html>
