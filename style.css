@@ -1,0 +1,37 @@
+.smalltext-withmargin {
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+#amount { 
+    border: 2px solid grey;
+    border-radius: 4px;
+      width: 20%;
+    height: 30px;
+    font-size: 20px;
+        font-family: sans-serif;
+    }
+
+#yield{
+        border: 2px solid grey;
+    border-radius: 4px;
+      width: 20%;
+        height: 30px;
+font-size: 20px;
+        font-family: sans-serif;
+}
+
+#years{
+       border: 2px solid grey;
+    border-radius: 4px; 
+    width: 20%;
+        height: 30px;
+    font-size: 20px;
+        font-family: sans-serif;
+}
+.questions{
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 22px;
