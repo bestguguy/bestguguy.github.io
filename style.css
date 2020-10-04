@@ -1,37 +1,60 @@
-.smalltext-withmargin {
-    width: 70%;
+body {
+    margin: 0%;
+    background-color:  crimson;
     font-family: sans-serif;
-    font-size: 18px;
-    line-height: 130%;
 }
 
-#amount { 
-    border: 2px solid grey;
-    border-radius: 4px;
-      width: 20%;
-    height: 30px;
-    font-size: 20px;
-        font-family: sans-serif;
-    }
 
-#yield{
-        border: 2px solid grey;
-    border-radius: 4px;
-      width: 20%;
-        height: 30px;
-font-size: 20px;
-        font-family: sans-serif;
+.header{
+    
+color: white;
+    margin-left: 30%;
+width: 50%;
 }
 
-#years{
-       border: 2px solid grey;
-    border-radius: 4px; 
-    width: 20%;
-        height: 30px;
-    font-size: 20px;
-        font-family: sans-serif;
+
+.button{
+    font-size: 80px;
+     margin-left: 40%;
+    color: white;
+    background-color: white;
+    
+     border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+        
 }
-.questions{
-    letter-spacing: 2px;
-    font-family: monospace;
-    font-size: 22px;
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.button:hover{
+    
+    color: red;
+}
+
+.img{
+margin-left: 30%;
+    width: 30%;
+
+}
+
+.buttonend{
+        font-size: 80px;
+     margin-left: 30%;
+    color: black;
+    background-color: white;
+    
+     border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+            
+
+}

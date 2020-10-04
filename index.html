@@ -1,40 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet" >
-        
-    <script>
-        function computeDividend(){
-            var amount = document.getElementById('amount').value;
-            
-             var yield = document.getElementById('yield').value;
-             
-            var years = document.getElementById('years').value;
-            
-            
-           var Dividend_payout = (yield / 100) + 1;
-            
-            var Dividends = amount * Math.pow(Dividend_payout, years) .toFixed(2);
-            
-            
-            Dividends = Dividends.toString() ;
-           
-            
-            document.getElementById('Dividends').innerHTML = "Dividends = $"+Dividends;
-        }
-        
-    </script>
-    </head>
-    <body>
-        
-    <p>Investment: $<input id="amount" type="number" min="1" onchange="computeDividend ()"></p>
-        
-     <p>Dividend Yield: <input id="yield" type="number" min="0" max="100" value="10" steps=".1" onchange="computeDividend ()">%</p>   
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
     
-        
-    <p>Years: <input id="years" type="number" min="1" value="10" onchange="computeDividend ()"></p>
-        
-    <h2 class="questions" id="Dividends"></h2>    
-        
-    </body>
+<span><h1 class="header">Waarom ik de imposter niet ben.</h1> 
+    
+    
+        <button class="button"><a class="link" href="sven.html">start</a></button>
+    </span>
+    
+
+    
+    <img class="img" src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-19/s320x320/64431866_2274450185995542_3339400887264083968_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_ohc=xMrRw3wW6-IAX-IEmMG&oh=b90fb6b86251a9c7e08e1a5f0206df1a&oe=5FA0C378">
+    
+</body>
+
 </html>
