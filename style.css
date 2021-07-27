@@ -1,60 +1,67 @@
-body {
-    margin: 0%;
-    background-color:  crimson;
+.cards {
+    margin: 0px auto; 
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    gap: 20px;
     font-family: sans-serif;
 }
 
+.Card { box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);}
 
-.header{
-    
-color: white;
-    margin-left: 30%;
-width: 50%;
+.card_image {
+    width: 100%;
+    display: block;
+}
+.card_content {
+    background: #fafafa;
+
 }
 
-
-.button{
-    font-size: 80px;
-     margin-left: 40%;
+.links {
     color: white;
-    background-color: white;
-    
-     border: none;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-        
+    font-weight: bold;
+
 }
 
-.link{
-    color: black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
+  }
+  
 
+  
+  .active {
+    background-color: #04AA6D;
+  }
 
-.button:hover{
-    
-    color: red;
-}
+  .vids { 
+    margin-left: 10%;
+  }
+  body {
+    margin: 4px;
+    background-color: black;
+  }
 
-.img{
-margin-left: 30%;
-    width: 30%;
+  p {
+    color: white;
+  }
 
-}
-
-.buttonend{
-        font-size: 80px;
-     margin-left: 30%;
-    color: black;
-    background-color: white;
-    
-     border: none;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-            
-
-}
+  .cards_info{
+    color: white;
+  }
